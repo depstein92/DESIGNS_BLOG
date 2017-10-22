@@ -106,8 +106,6 @@ module.exports.contLoginUser = (req, res, hash) => {
     res.redirect('/');
 }
 /*================uploadImages/ multer==========
-
-
 ====================================================*/
 module.exports.deletePost = (req, res) => {
     const post_id = req.body.post_id;
@@ -124,9 +122,6 @@ module.exports.deletePost = (req, res) => {
 
         res.redirect('/homeStream');
     })
-
-
-
 
 }
 
